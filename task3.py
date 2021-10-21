@@ -15,7 +15,10 @@ assert hypotenuse(6,8) == 10
 """
 
 
-def hypotenuse():
-    pass
+
+def hypotenuse(a,b):
+    import math
+    c = math.sqrt(a**2 + b**2)
+    return c
 
 assert hypotenuse(6,8) == 10
