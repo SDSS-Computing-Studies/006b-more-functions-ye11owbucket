@@ -23,4 +23,4 @@ def convertTemp(a,b):
     else:
         exit()
     
-assert convertTemp(32,"F")
+#assert convertTemp(32,"F") ==
