@@ -20,3 +20,15 @@ assert triangle(5,15,12) == 3
 assert triangle(1,1,4) == 0  
 (2 points)
 """
+def sCalene(a,b,c):
+    side=[a,b,c]
+    side.sort()
+    if side[0]+side[1] < side[2]:
+        return 0
+    if side[0]**2+side[1]**2 > side[2]**2:
+        return 1
+    if side[0]**2+side[1]**2 == side[2]**2:
+        return 2
+    if side[0]**2+side[1]**2 < side[2]**2:
+        return 3
+    pass
