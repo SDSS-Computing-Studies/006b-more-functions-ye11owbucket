@@ -13,7 +13,7 @@ assert convertTemp(10,'C') == 50
 assert converTemp(32,'F') == 0
 """
 
-def converTemp(a,b):
+def convertTemp(a,b):
     if b == "C":
         y = a * 9/5 + 32
         return int(y)
@@ -23,4 +23,4 @@ def converTemp(a,b):
     else:
         exit()
     
-print(converTemp(32,"F"))
+assert convertTemp(32,"F")
