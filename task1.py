@@ -18,7 +18,7 @@ def btcTocad(a):
     a = float(a)
     total = (a*45000.000)
     t = round(total,1)
-    t = float(t)
+    t = int(t)
     return t
 
 
